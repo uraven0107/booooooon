@@ -13,7 +13,7 @@ space=' '
 function booooooon () {
 	while [[ $c -lt 60 ]]; do
 		clear
-		sed "s/^/$space/g" ./boooon.aa
+		sed "s/^/$space/g" $AA_FILE
 		c=$((++c))
 		space=${space}' '
 		sleep 0.1
